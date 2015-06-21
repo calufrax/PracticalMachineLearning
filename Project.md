@@ -33,15 +33,11 @@ mtry | Accuracy | Kappa   |  Accuracy SD | Kappa SD
  26  | 0.9708558| 0.9631199 | 0.003131292 | 0.003964243
  51  | 0.9671861| 0.9584797 | 0.005239389 | 0.006641565
 
-  Accuracy was used to select the optimal model using  the largest value.
-  The final value used for the model was mtry = 26.
+Accuracy was used to select the optimal model using  the largest value. The final value used for the model was mtry = 26.
 
 
-  Cross-Validated (5 fold) Confusion Matrix 
+Cross-Validated (5 fold) Confusion Matrix 
 
-  (entries are percentages of table totals)
- 
- Reference
  Prediction|  A   |  B   |   C  |   D  |   E
  ----------|------|------|------|------|------
  A         | 28.2 | 0.7  | 0.0  | 0.0  | 0.0
