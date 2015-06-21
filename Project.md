@@ -26,10 +26,10 @@ The accuracy returned by the training subset, as given below, was determined to 
 Resampling results across tuning parameters:
 
 mtry | Accuracy | Kappa   |  Accuracy SD | Kappa SD
------|----------|---------|--------------|---------
-  2    0.9694320  0.9613064  0.007452919  0.009440061
-  26   0.9708558  0.9631199  0.003131292  0.003964243
-  51   0.9671861  0.9584797  0.005239389  0.006641565
+-----|----------|-----------|--------------|---------
+ 2   | 0.9694320| 0.9613064 | 0.007452919 | 0.009440061
+ 26  | 0.9708558| 0.9631199 | 0.003131292 | 0.003964243
+ 51  | 0.9671861| 0.9584797 | 0.005239389 | 0.006641565
 
   Accuracy was used to select the optimal model using  the largest value.
   The final value used for the model was mtry = 26.
