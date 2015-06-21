@@ -23,12 +23,13 @@ The reduced data set was then analysed using a basic random forest with 5-fold c
 
 The accuracy returned by the training subset, as given below, was determined to be sufficiently high that a greater proportion of the subset was not required.
  
-    Resampling results across tuning parameters:
+Resampling results across tuning parameters:
 
-  mtry  Accuracy   Kappa      Accuracy SD  Kappa SD   
-   2    0.9694320  0.9613064  0.007452919  0.009440061
-  26    0.9708558  0.9631199  0.003131292  0.003964243
-  51    0.9671861  0.9584797  0.005239389  0.006641565
+mtry | Accuracy | Kappa   |  Accuracy SD | Kappa SD
+-----|----------|---------|--------------|---------
+  2    0.9694320  0.9613064  0.007452919  0.009440061
+  26   0.9708558  0.9631199  0.003131292  0.003964243
+  51   0.9671861  0.9584797  0.005239389  0.006641565
 
   Accuracy was used to select the optimal model using  the largest value.
   The final value used for the model was mtry = 26.
@@ -38,13 +39,14 @@ The accuracy returned by the training subset, as given below, was determined to 
 
   (entries are percentages of table totals)
  
-            Reference
-  Prediction    A    B    C    D    E
-           A 28.2  0.7  0.0  0.0  0.0
-           B  0.1 18.2  0.4  0.0  0.1
-           C  0.1  0.4 16.8  0.4  0.2
-           D  0.1  0.0  0.3 15.9  0.1
-           E  0.0  0.0  0.0  0.0 18.0
+ Reference
+ Prediction|A|B|C|D|E
+ ----------|-----|-----|-----|-----|-----
+ A|28.2|0.7|0.0|0.0|0.0
+ B|0.1|18.2|0.4|0.0|0.1
+ C|0.1|0.4|16.8|0.4|0.2
+ D|0.1|0.0|0.3|15.9|0.1
+ E|0.0|0.0|0.0|0.0|18.0
 
 The test set was then run using the model, and submitted. As all predicted results were correct, no further analysis was undertaken.
 
