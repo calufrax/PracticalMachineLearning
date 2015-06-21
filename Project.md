@@ -42,13 +42,13 @@ mtry | Accuracy | Kappa   |  Accuracy SD | Kappa SD
   (entries are percentages of table totals)
  
  Reference
- Prediction|A|B|C|D|E
+ Prediction|  A  |  B  |  C  |  D  |  E
  ----------|-----|-----|-----|-----|-----
- A|28.2|0.7|0.0|0.0|0.0
- B|0.1|18.2|0.4|0.0|0.1
- C|0.1|0.4|16.8|0.4|0.2
- D|0.1|0.0|0.3|15.9|0.1
- E|0.0|0.0|0.0|0.0|18.0
+ A | 28.2 | 0.7 | 0.0 | 0.0 | 0.0
+ B | 0.1 | 18.2 | 0.4 | 0.0 | 0.1
+ C | 0.1 | 0.4 | 16.8 | 0.4 | 0.2
+ D | 0.1 |0.0 | 0.3 | 15.9 | 0.1
+ E | 0.0 | 0.0 | 0.0 | 0.0 | 18.0
 
 The test set was then run using the model, and submitted. As all predicted results were correct, no further analysis was undertaken.
 
